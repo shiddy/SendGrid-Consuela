@@ -132,8 +132,8 @@ func zipOutput(username string, wholeList, donotsend map[string]string) {
 //   you would run the CsvToMap fucntion with your wanted email list
 //   and run a compareLists on the two maps.
 func main() {
-	username := "unsubscribe_check"
-	password := "herpderp"
+	username := "Username"
+	password := "Password"
 
 	fmt.Println("Opening your giant list")
 	wholeList := CsvToMap("wholelist.csv")
